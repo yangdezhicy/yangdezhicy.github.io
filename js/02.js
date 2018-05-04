@@ -35,7 +35,7 @@ $().ready(function(){
 				console.log("about");
 				tap("#a2","#a1","#a3","#a4","#a5");
 			}
-			else if(top > 1631&&top<2390){
+			else if(top >=1631&&top<2390){
 				console.log("service");
 				tap("#a3","#a2","#a1","#a4","#a5");
 			}
