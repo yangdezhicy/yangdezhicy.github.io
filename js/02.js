@@ -22,6 +22,7 @@ $().ready(function(){
 			}
 		$(window).scroll(function() {
 			var top = $(document).scrollTop();
+			console.log(top);
 			if(top > 0){
 				$(".navbar").css("background-color","#fff");
 			}else{
