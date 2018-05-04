@@ -4,7 +4,7 @@ $().ready(function(){
 		slide("#a3","#experience");
 		slide("#a4","#quotes");
 		slide("#a5","#contact");
-		slide(".a2","#footer");
+		slide(".a2","#about");
 		function slide(el,targetel){
 			$(el).click(function(){
 				$("html,body").animate({
