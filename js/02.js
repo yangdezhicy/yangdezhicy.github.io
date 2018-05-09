@@ -15,10 +15,10 @@ $().ready(function(){
 		}
 		function tap(el01,el02,el03,el04,el05){
 				$(el01).css("color","#E3AE57");
-				$(el02).css("color","#666");
-				$(el03).css("color","#666");
-				$(el04).css("color","#666");
-				$(el05).css("color","#666");
+				$(el02).css("color","#ccc");
+				$(el03).css("color","#ccc");
+				$(el04).css("color","#ccc");
+				$(el05).css("color","#ccc");
 			}
 		$(window).scroll(function() {
 			var top = $(document).scrollTop();
