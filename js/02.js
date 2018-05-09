@@ -2,7 +2,7 @@ $().ready(function(){
 		slide("#a1","#home");
 		slide("#a2","#about");
 		slide("#a3","#experience");
-		slide("#a4","#quotes");
+		slide("#a4","#education");
 		slide("#a5","#contact");
 		slide(".a2","#about");
 		function slide(el,targetel){
@@ -22,28 +22,23 @@ $().ready(function(){
 			}
 		$(window).scroll(function() {
 			var top = $(document).scrollTop();
-			console.log(top);
+			// console.log(top);
 			if(top > 0){
 				$(".navbar").css("background-color","#fff");
 			}else{
 				$(".navbar").css("background","none");
 			}
-			if(top >= 0&&top<949){
-				console.log("home");
+			if(top >= 0&&top<862){
 				tap("#a1","#a2","#a3","#a4","#a5");
-			}else if(top >= 949&&top<1631){
-				console.log("about");
+			}else if(top >= 862&&top<1481){
 				tap("#a2","#a1","#a3","#a4","#a5");
 			}
-			else if(top >=1631&&top<2390){
-				console.log("service");
+			else if(top > 1481&&top<1800){
 				tap("#a3","#a2","#a1","#a4","#a5");
 			}
-			else if(top >= 2390&&top<2819){
-				console.log("experience");
+			else if(top >= 1800&&top<2300){
 				tap("#a4","#a2","#a3","#a1","#a5");
-			}else if(top >= 2902){
-				console.log("education");
+			}else if(top >= 2300){
 				tap("#a5","#a2","#a3","#a4","#a1");
 			}
 		})

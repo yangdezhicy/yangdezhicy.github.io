@@ -1,3 +1,14 @@
+body {
+  position: relative;
+}
+#particles-js {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  max-width: 1820px;
+  width: 100%;
+  height: 960px;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10,7 +21,7 @@ body {
   height: 100%;
 }
 a {
-  color: #666;
+  color: #eee;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -29,14 +40,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
+  /*font-weight: 100;*/
 }
-h1,
-h2,
-h3 {
-  font-weight: 300;
-}
+/*h1,h2,h3 {
+  font-weight: 100;
+}*/
 h1 {
   font-size: 42px;
   padding-bottom: 14px;
@@ -64,7 +73,7 @@ h5 {
   color: #666666;
 }
 strong {
-  color: #232B2B;
+  color: #eee;
   font-weight: normal;
 }
 p {
@@ -128,10 +137,10 @@ p {
 .nav h1 {
   display: inline-block;
   margin-top: 15px;
-  color: #333;
-  text-shadow: 1px 1px #fff;
+  color: #eee;
+  text-shadow: 4px 4px #aaa;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 37px;
   line-height: 35px;
   letter-spacing: 1px;
 }
@@ -156,14 +165,14 @@ p {
   margin: 0;
 }
 .home .col-md-6 {
-  background: #f1e2d7;
+  background: #000;
   padding-right: 0;
   padding-left: 0;
 }
 .home-img {
-  background: url('../images/home-img.jpg');
+  background: url('../images/mine02.png');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 98% 50%;
   width: 100%;
   height: 100vh;
 }
@@ -211,7 +220,7 @@ p {
 }
 .home-thumb h1,
 .home-thumb h4 {
-  color: #999;
+  color: #eb9e33;
   font-weight: 100px;
   margin-bottom: 18px;
 }
@@ -226,18 +235,18 @@ p {
   overflow: hidden;
 }
 .about .about-img {
-  background: url('../images/about-img.jpg') no-repeat;
+  background: url('../images/03.jpg') no-repeat;
 }
 .about .about-thumb,
 .about .skill-thumb {
   padding: 42px 32px;
+  /*background: #485858;*/
 }
 .about .about-thumb p,
 .about .skill-thumb p {
   font-size: 13px;
   font-weight: normal;
   letter-spacing: 1px;
-  padding-top: 6px;
 }
 .about .about-thumb .section-title,
 .about .skill-thumb .section-title {
@@ -287,7 +296,7 @@ p {
 }
 .experience .media-heading,
 .education .media-heading {
-  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 .experience .fa,
 .education .fa {
@@ -298,6 +307,7 @@ p {
 .education small {
   color: #633;
   font-weight: bold;
+  margin-left: 30px;
 }
 .experience-img {
   background: url('../images/experience-img.jpg') no-repeat;
@@ -316,7 +326,7 @@ p {
   margin-bottom: 40px;
 }
 .quotes {
-  background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/quotes-bg.png') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
@@ -341,19 +351,30 @@ p {
   height: 100%;
   position: absolute;
   top: 0;
-  opacity: 0.7;
+  opacity: 0.6;
+}
+.overlay01 {
+  background: #121212;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.4;
 }
 .contact-thumb {
   padding: 62px 100px;
   min-height: 75vh;
 }
 .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
+  background: url('../images/02.jpg') no-repeat;
   min-height: 75vh;
 }
 .contact-info {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.contact-info p {
+  line-height: 45px;
 }
 .contact {
   background: #000;
