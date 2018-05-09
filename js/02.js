@@ -28,9 +28,9 @@ $().ready(function(){
 			}else{
 				$(".navbar").css("background","none");
 			}
-			if(top >= 0&&top<862){
+			if(top >= 0&&top<842){
 				tap("#a1","#a2","#a3","#a4","#a5");
-			}else if(top >= 862&&top<1481){
+			}else if(top >= 842&&top<1481){
 				tap("#a2","#a1","#a3","#a4","#a5");
 			}
 			else if(top > 1481&&top<1800){
