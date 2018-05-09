@@ -13,6 +13,13 @@ $().ready(function(){
 				return false;
 			})
 		}
+		$(window).scroll(function() {
+			var top = $(document).scrollTop();
+			console.log(top);
+			if(top > 0){
+				$(".navbar").css("background-color","#fff");
+			}
+		})
 	});
 	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
 		new WOW().init();
