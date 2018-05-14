@@ -78,7 +78,7 @@ strong {
 }
 p {
   /*color: #888;*/
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 0.2px;
@@ -377,7 +377,7 @@ p {
   padding-bottom: 6px;
 }
 .contact-info p {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 45px;
 }
 .contact {
