@@ -18,6 +18,8 @@ $().ready(function(){
 			console.log(top);
 			if(top > 0){
 				$(".navbar").css("background-color","#fff");
+			}else{
+				$(".navbar").css("background","none");
 			}
 		})
 	});
